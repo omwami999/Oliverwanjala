@@ -1,0 +1,6 @@
+torch
+torchvision
+torchaudio
+pandas
+scikit-learn
+streamlit
