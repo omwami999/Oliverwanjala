@@ -19,7 +19,6 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Prepare dataset
 X = df.drop(columns=["profit"]).values
 y = df["profit"].values.reshape(-1, 1)
 
